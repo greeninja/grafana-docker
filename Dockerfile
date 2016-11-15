@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM greeninja/debian:jessie
 
 ARG GRAFANA_VERSION
 
