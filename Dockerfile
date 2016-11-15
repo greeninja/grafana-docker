@@ -1,6 +1,6 @@
 FROM greeninja/debian:jessie
 
-ARG GRAFANA_VERSION
+ARG GRAFANA_VERSION=v3.1.1
 
 RUN apt-get update && \
     apt-get -y --no-install-recommends install libfontconfig curl ca-certificates && \
